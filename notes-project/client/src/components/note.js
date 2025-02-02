@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Card ,Modal} from 'react-bootstrap';
 
 
-const Recipe=({title,description,onClick,onDelete})=>{
+const Note=({title,description,onClick,onDelete})=>{
     return(
         <Card className="recipe">
             <Card.Body>
@@ -17,4 +17,4 @@ const Recipe=({title,description,onClick,onDelete})=>{
 }
 
 
-export default Recipe;
+export default Note;
